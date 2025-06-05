@@ -17,17 +17,13 @@ This is a Point of Sales API built with Go.
    cd point-of-sales-api
    ```
 
-2. **Configure environment variables:**
-
-   - Copy `.env.example` to `.env` and update the values as needed.
-
-3. **Install dependencies:**
+2. **Install dependencies:**
 
    ```
    go mod download
    ```
 
-4. **Run the application:**
+3. **Run the application:**
 
    ```
    go run main.go
