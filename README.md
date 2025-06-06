@@ -26,7 +26,7 @@ This is a Point of Sales API built with Go.
 3. **Run the application:**
 
    ```
-   go run main.go
+   go run ./cmd/main.go
    ```
 
    The API should now be running at `http://localhost:8080`.

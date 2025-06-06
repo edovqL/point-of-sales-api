@@ -9,3 +9,7 @@ db:
   password: "root"
   database: "pos"
   sslmode: "disable"
+  max_idle_conns: 10
+  max_open_conns: 25
+  max_lifetime: 60
+  max_idle_time: 60
