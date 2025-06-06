@@ -7,14 +7,14 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-func init () {
+func init() {
 	err := config.LoadConfig("../../../config.test.yml")
 	if err != nil {
 		panic(err)
 	}
 }
 
-func TestConnectPostgreSQL (t *testing.T) {
+func TestConnectPostgreSQL(t *testing.T) {
 	cfg := config.GetConfig()
 
 	db, err := ConnectPostgreSQL(cfg.DB)

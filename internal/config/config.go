@@ -25,10 +25,10 @@ type DBConfig struct {
 	SSLMode  string `yaml:"sslmode"`
 
 	// Connection Pool
-	MaxIdleConns    int `yaml:"max_idle_conns"`
-	MaxOpenConns    int `yaml:"max_open_conns"`
-	MaxLifetime     int `yaml:"max_lifetime"` // in seconds
-	MaxIdleTime     int `yaml:"max_idle_time"` // in seconds
+	MaxIdleConns int `yaml:"max_idle_conns"`
+	MaxOpenConns int `yaml:"max_open_conns"`
+	MaxLifetime  int `yaml:"max_lifetime"`  // in seconds
+	MaxIdleTime  int `yaml:"max_idle_time"` // in seconds
 }
 
 var cfg *Config = &Config{}
