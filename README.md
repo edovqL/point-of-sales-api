@@ -13,7 +13,7 @@ This is a Point of Sales API built with Go.
 1. **Clone the repository:**
 
    ```
-   git clone https://github.com/alpredovandy/point-of-sales-api.git
+   git clone https://github.com/edovqL/point-of-sales-api.git
    cd point-of-sales-api
    ```
 
